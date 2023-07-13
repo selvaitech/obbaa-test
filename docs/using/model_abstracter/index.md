@@ -98,6 +98,7 @@ spec:
             - name: MODEL_ABSTRACTER_STATUS
               value: Disable
 ~~~
+
 # L2 service configuration
 
 The following describes how to config L2 service using the new YANG model.
@@ -118,7 +119,8 @@ Note: the steps related to environment preparation which contains the pOLT and o
 
 The XML samples mentioned above are as follows:
 - add-interfaces-onu
-~~~ 
+
+~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="3">
     <edit-config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
         <target>
@@ -153,6 +155,7 @@ The XML samples mentioned above are as follows:
     </edit-config>
 </rpc>
 ~~~
+
 - create-link-table
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="4">
@@ -180,6 +183,7 @@ The XML samples mentioned above are as follows:
     </edit-config>
 </rpc>
 ~~~
+
 -create-line-bandwidth-profile
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="5">
@@ -200,6 +204,7 @@ The XML samples mentioned above are as follows:
     </edit-config>
 </rpc>
 ~~~
+
 - create-line-profile
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="6">
@@ -227,6 +232,7 @@ The XML samples mentioned above are as follows:
     </edit-config>
 </rpc>
 ~~~
+
 - create-vlan-translation-profile
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="7">
@@ -289,8 +295,9 @@ The XML samples mentioned above are as follows:
     </edit-config>
 </rpc>
 ~~~
+
 - create-service-profile
-- 
+
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="8">
     <edit-config>
@@ -317,6 +324,7 @@ The XML samples mentioned above are as follows:
     </edit-config>
 </rpc>
 ~~~
+
 - create-OLT-node-and-TPs
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="9">
@@ -362,6 +370,7 @@ The XML samples mentioned above are as follows:
     </edit-config>
 </rpc>
 ~~~
+
 - create-ONU-node-and-TPs-and-LINK
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="10">
@@ -422,6 +431,7 @@ The XML samples mentioned above are as follows:
     </edit-config>
 </rpc>
 ~~~
+
 - create-1-1-l2-v-uni-and-nni-tp E
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="11">
@@ -477,6 +487,7 @@ The XML samples mentioned above are as follows:
     </edit-config>
 </rpc>
 ~~~
+
 - optional-create-link-only-1-1
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="12">
@@ -534,6 +545,7 @@ From here, it's the N:1 scenario, and this profile is only used in N:1 scenario.
     </edit-config>
 </rpc>
 ~~~
+
 - create-N-1-l2-vlan-tp
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="14">
@@ -564,7 +576,8 @@ From here, it's the N:1 scenario, and this profile is only used in N:1 scenario.
     </edit-config>
 </rpc>
 ~~~
-- optional-create-link-only-N-1 
+
+- optional-create-link-only-N-1
 ~~~
 <rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="15">
     <edit-config>
