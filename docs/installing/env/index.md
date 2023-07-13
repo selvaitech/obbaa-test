@@ -186,7 +186,7 @@ More details about the model abstracter feature can be found [here](../architect
 #### Using Helm Charts
 OB-BAA Helm Chart Hierarchy
 <p align="left">
- <img width="400px" height="400px" src="helm-hierarchy.png">
+ <img width="400px" height="400px" src="helm_hierarchy.png">
 </p>
 
 ```
