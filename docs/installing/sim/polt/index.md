@@ -5,12 +5,10 @@
 
 Simulates the physical OLT for interactions between the OLT and the BAA layer.
 
-The pOLT simulator is a framework comprising the pOLT simulator and an
-ONU simulator which are two separate components at the time of writing.
-
-The pOLT simulator framework only contains basic ONU simulation
-capabilities that is only necessary to complement the pOLT interactions with the BAA layer (e.g., detect/undetect message handling). 
-As such, the pOLT simulator framework doesn\'t contain a real ONU simulator.
+The pOLT simulator is a framework comprising the pOLT simulation and a basic
+ONU simulation (that is distinct from the dedicated ONU simuator [here](OBBAA/obbaa-onu-simulator)). It contains only
+ONU simulation capabilities necessary to complement the pOLT interactions with the BAA layer (e.g., detect/undetect message handling). 
+As such, the pOLT simulator framework does not contain a full-fledged ONU simulator.
 
 ## Deployment
 
