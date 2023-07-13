@@ -44,4 +44,6 @@ OB-BAA:
 
 - [Processing and storing vONU telemetry data](vonu_telemetry_data_processing_and_storage/index.md)
 
+- [Model Abstracter](model_abstracter/index.md)
+
 [<--Installing OB-BAA](../installing/index.md#installing)
