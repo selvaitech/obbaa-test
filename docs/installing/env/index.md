@@ -175,10 +175,10 @@ Note: As the ob-baa_setup.yml file now have ipfix-collector, influxDB, zookeeper
 ##### Model Abstractor
 Model abstracter is an optional module for OBBAA. If a user wants to enable the Model Abstracter support in BAA, the environment variable MODEL_ABSTRACTER_STATUS must be set to Enable in the docker-compose file ob-baa_setup.yml before we start running the docker-compose command.
 
-More details about the model abstracter feature can be found [here](model-abstracter).
+More details about the model abstracter feature can be found [here](../architecture/model_abstracter).
 
 <p align="left">
- <img width="400px" height="400px" src="{{site.url}}/installing/env/model_abstracter_1.png">
+ <img width="400px" height="400px" src="model_abstracter_1.png">
 </p>
 
 
@@ -186,7 +186,7 @@ More details about the model abstracter feature can be found [here](model-abstra
 #### Using Helm Charts
 OB-BAA Helm Chart Hierarchy
 <p align="left">
- <img width="400px" height="400px" src="{{site.url}}/installing/env/helm-hierarchy.png">
+ <img width="400px" height="400px" src="helm-hierarchy.png">
 </p>
 
 ```

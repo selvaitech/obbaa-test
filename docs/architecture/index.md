@@ -368,7 +368,7 @@ to/from physical devices.
 
 The Service discovery is used to retrieve VNF details from Container management tool. In this release Kubernetes is the supported container orchestrator. This service allows OBBAA user to query the list of VNFs, their status & details. The Module uses the orchestrator API (for Kubernetes its REST API) to retrieve the requested details.
 
-[For more information on Discovering micro-services](/microservices-discovery/index.md#micro_discovery)
+[For more information on Discovering micro-services](/using/micro_discovery/index.md#micro_discovery)
 
 
 ### Model Abstracter
@@ -376,7 +376,7 @@ OBBAA supports model abstracter which will be helpful in abstraction of technolo
 and provide common yang instructions. The Model Abstracter module is a completely optional module 
 that can enabled/disable as part of OB-BAA start up.
 
-[For more information on the Model Abstracter](../using/model_abstracter/index.md#model_abstracter)
+[For more information on the Model Abstracter](../model_abstracter/index.md#model_abstracter)
 
 [<--Overview](../overview/index.md#overview)
 

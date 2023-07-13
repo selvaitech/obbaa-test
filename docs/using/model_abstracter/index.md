@@ -7,7 +7,7 @@ Model abstracter
 ## Enable/Disable Model Abstracter with env-variable MODEL_ABSTRACTER_STATUS
 The environment variable MODEL_ABSTRACTER_STATUS is used in two scenarios.
 
-## docker compose file
+## Docker compose file
 
 We could use docker-compose command to deploy OB-BAA. And add MODEL_ABSTRACTER_STATUS variable in node of services.baa.environment as follows. It's only a part of docker-compose.yml file to demonstrate the usage.
 
@@ -43,7 +43,7 @@ services:
             - NC_ENABLE_POST_EDIT_DS_VALIDATION_SUPPORT=True
 ~~~
 
-## helm charts file
+## Helm charts file
 The helm chart file is used in Kubenetes, and need to add the variable in the deployment.yml of the baa chart. This variable should be added in the node of env as follows. It's also a part of the deployment.yml file.
 ~~~
 spec:

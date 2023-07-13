@@ -1031,7 +1031,7 @@ MediatedDeviceNetconfSession has been established then the Delete-ONU
 request is transmitted and the session is closed after the response to the request is received.
 
 <p align="center">
- <img width="800px" height="800px" src="nu_delete.png">
+ <img width="800px" height="800px" src="onu_delete.png">
 </p>
 
 ### ONU Alarm handling via vOMCI
